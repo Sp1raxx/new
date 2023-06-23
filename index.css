@@ -1,0 +1,157 @@
+img{
+    width: 500px;
+    margin-top: -255px;
+    margin-left: -10px;
+    margin-bottom: -50px;
+}
+#ok{
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 94px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#back{
+    display: inline-flex;
+}
+#uh{
+    margin-left: 340px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    margin-bottom: -20px;
+}
+#op{
+    margin-top: 50px;
+}
+#ij,#yh{
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+#yh{
+    height: 35px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: ridge;
+    border-color: rgb(218, 216, 216);
+}
+#fd{
+    margin-left: 200px;
+    display: inline-flex;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+#nm{
+    margin-left: 250px;
+    color: grey;
+    text-decoration: none;
+    margin-top: 12px;
+}
+#vc{
+    margin-left: 200px;
+    margin-top: 5px;
+    height: 35px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: ridge;
+    border-color: rgb(218, 216, 216);
+}
+#gf{
+    margin-left: 200px;
+    margin-top: 30px;
+    height: 35px;
+    border-radius: 6px;
+    border-width: 1px;
+    width: 420px;
+    background: rgb(224, 221, 221);
+    border: none;
+}
+#gb{
+    margin-left: 200px;
+    margin-top: 5px;
+    height: 45px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: ridge;
+    width: 420px;
+    background: white;
+    border-color: rgb(218, 216, 216);
+}
+h3{
+    margin-top: -15px;
+    font-size: 13px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66, 66, 66);
+}
+#hg{
+    margin-left: -95px;
+    margin-top: 15px;
+}
+.fa-google{
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+#rf{
+    list-style-type: none;
+    border-bottom: none;
+    color: #4285f4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+#lk{
+    margin-left: 200px;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    border-style: ridge;
+    margin-right: 220px;
+    height: 120px;
+    font-weight: lighter;
+    border-radius: 6px;
+    border-color: rgb(218, 216, 216);
+    border-style: ridge;
+    border-width: 1px;
+}
+#sx{
+    margin-left: 130px;
+    margin-top: 20px;
+}
+#xs{
+    margin-left: 70px;
+    margin-top: -8px;
+    margin-bottom: 6px;
+}
+#overflows{
+    margin-top: -60px;
+    margin-left: 40px;
+    height: 30px;
+    width: 200px;
+    border-radius: 6px;
+    border-color: rgb(218, 216, 216);
+    border-style: ridge;
+    border-width: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ds{
+    height: 30px;
+    width: 150px;
+    border-radius: 6px;
+    border-color: rgb(218, 216, 216);
+    border-style: ridge;
+    border-width: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    color: white;
+}
