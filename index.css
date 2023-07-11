@@ -157,7 +157,8 @@ h3{
 }
 @media screen and (max-width: 768px) {
     #uh,#ij,#yh,#op,#fd,#vc,#gf,#gb,#rf{
-        margin-left: 50px;
+        margin-left: 10px;
+        
     }
     #ij{
         margin-left: 5px;
@@ -168,4 +169,14 @@ h3{
     #rf{
         margin-left: -50px;
     }
+    #uh{
+        margin-left:170px;
+    }
+    #yh,#vc,#gb,#gf{
+        width: 350px;
+    }
+    #nm{
+        margin-left: 180px;
+    }
+
 }
