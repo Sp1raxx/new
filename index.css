@@ -172,20 +172,22 @@ h3{
         
     }
     #kkk{
-        font-size: 10px;
+        font-size: 6px;
     }
     #kkk #mko{
-        font-size: 12px;
+        font-size: 11px;
         margin-top: 3px;
     }
     #kkk #kmo{
         margin-top: 10px;
+        font-size: 13px;
+        margin-left: -10px;
     }
     #kkk #obo{
-        font-size: 20px;
+        font-size: 11px;
         margin-right: 0px;
         margin-top: -300px; 
-        margin-left: -10px;
+        margin-left: px;
     }
     #vc,#yh,#gb,#gf{
         width: 385px;
