@@ -188,6 +188,14 @@ h3{
     background-color: blue;
     color: white;
 }
+.error{
+    margin-top: 40px;
+    margin-left: -420px;
+    position: absolute;
+}
+.errors{
+    margin-left: 210px;
+}
 
 @media screen and (max-width: 768px){
     #back{
@@ -195,6 +203,20 @@ h3{
         margin-top: 110px;
         width: 100%;
         
+    }
+    .error{
+        margin-left: -380px;
+        position: absolute;
+    }
+    #ikh{
+        margin-top: -30px;
+        margin-bottom: -20px;
+    }
+    #ij{
+        margin-bottom: -5px;
+    }
+    #yh{
+        margin-top: -60px;
     }
     #ok{
         margin-left: 100px;

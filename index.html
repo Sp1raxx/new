@@ -31,14 +31,20 @@
             <h1 id="uh">Sign in</h1>
             <div id="op">
                <p id="ij">Email</p>
-               <input type="text" id="yh" alt="" size="55" placeholder="tobi@example.com">
+               <label for="exampleFormControlInput1" class="form-label"></label>
+               <input type="email" id="yh" alt="" size="55" placeholder="tobi@example.com" onkeyup="validateemail()">
+               <span id="emailError" class="error"></span>
             </div>
             <div id="fd">
                 <p id="mn">Password</p>
                 <a id="nm" href="#">Forgot password?</a>
             </div>
             <br>
-            <input type="password" id="vc" size="52"><br>
+        <div id="ikh">
+            <label for="exampleFormControlInput2" class="pass-label"></label>
+            <input type="password" id="vc" size="52" onkeyup="validatepassword()"><br>
+            <span id="passError" class="errors"></span>
+        </div>
             <button id="gf"><h1 style="font-size: 15px; color: rgb(170, 167, 167);">Sign in</h1></button>
         <div id="jhm">
             <p id="kk" style="margin-left: 160px; margin-top: 10px;">or</p>
@@ -59,6 +65,65 @@
                  <button id="ds">Download for free</button>
 
 
+
+
+                 <script>
+                    const form = document.getElementById("registrationForm");
+                    const exampleFormContolInput1 = document.getElementById("yh");
+                    const emailError = document.getElementById("emailError");
+                    const emailformat = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+                    function validateemail(){
+                        if (!yh.value) {
+                            emailError.textContent = "Input a valid email";
+                            emailError.style.color = "red";
+
+                        } else if ( !yh.value.match(emailformat)) {
+                            emailError.textContent = "Incorrect email";
+                            emailError.style.color = "red";
+
+
+                        } else {
+                            emailError.textContent = "valid email";
+                            emailError.style.color = "blue";
+                        }
+                    }
+                 </script>
+
+
+
+
+
+            <script>
+                const formm = document.getElementById("registrationForm");
+                const exampleFormControlInput2 = document.getElementById("vc");
+                const passError = document.getElementById("passError");
+                const passwordformat = /^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#\$%\^&])[a-zA-Z0-9!@#\$%\^&]{5,15}$/;
+
+                function validatepassword(){
+                    if (!vc.value) {
+                        passError.textContent = "Password should be at least 8 characters long.";
+                        passError.style.color = "red";
+
+                    } else if ( !vc.value.match(emailformat)) {
+                        passError.textContent = "Incorrect password";
+                        passError.style.color = "red";
+
+
+                    } else {
+                        passError.textContent = "valid password";
+                        passError.style.color = "blue";
+                    }
+                }
+            </script>
+
+
+
+
+
+
+
+
                  <style>
                     @media screen and (max-width: 768px) {
                         img{
@@ -71,8 +136,8 @@
                             display: none;
                         }
                         #ok{
-                            margin-top: -60px;
-                            margin-left: 200px;
+                            margin-top: -100px;
+                            margin-left: 250px;
                         }
                         #kkk{
                             size-adjust: 100px;
