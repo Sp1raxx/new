@@ -171,15 +171,21 @@ h3{
         margin-top: 30px;
         
     }
-    #kkk p{
-        font-size: 12px;
+    #kkk{
+        font-size: 10px;
     }
     #kkk #mko{
-        margin-top: 4px;
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    #kkk #kmo{
+        margin-top: 10px;
     }
     #kkk #obo{
-        font-size: 10px;
-        width: 10px;
+        font-size: 20px;
+        margin-right: 0px;
+        margin-top: -300px; 
+        margin-left: -10px;
     }
     #vc,#yh,#gb,#gf{
         width: 385px;
@@ -188,4 +194,8 @@ h3{
         margin-left: 220px;
         margin-top: 2px;
     }
+    body{
+        overflow-x: hidden;
+    }
+
 }
