@@ -192,7 +192,7 @@ h3{
 @media screen and (max-width: 768px){
     #back{
         margin-left: -197px;
-        margin-top: 100px;
+        margin-top: 110px;
         width: 100%;
         
     }
@@ -200,24 +200,6 @@ h3{
         margin-left: 100px;
         margin-top: 30px;
         
-    }
-    #kkk{
-        font-size: 6px;
-    }
-    #kkk #mko{
-        font-size: 11px;
-        margin-top: 3px;
-    }
-    #kkk #kmo{
-        margin-top: 10px;
-        font-size: 13px;
-        margin-left: -10px;
-    }
-    #kkk #obo{
-        font-size: 11px;
-        margin-right: 0px;
-        margin-top: -300px; 
-        margin-left: px;
     }
     #vc,#yh,#gb,#gf{
         width: 385px;
@@ -229,5 +211,40 @@ h3{
     body{
         overflow-x: hidden;
     }
+    #kk:before{
+        content: " ";
+        display: block;
+        height: 1px;
+        width: 160px;
+        margin-left: 15px;
+        margin-right: 0px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        background: rgb(236, 234, 234);
+    }
+    #kk:after{
+        content: " ";
+        display: block;
+        height: 1px;
+        width: 160px;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        background: rgb(236, 234, 234);
+        margin-right: 10px;
+    }
+    #kk{
+        position: relative;
+    
+        max-width: 500px;
+        margin-left: 00px auto;
+        text-align: center;
+        color: rgb(236, 234, 234);
+    }
+    #jhm {
+        margin-left: 30px;
+    }
+
 
 }
