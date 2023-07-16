@@ -170,21 +170,8 @@ h3{
         margin-top: 30px;
         
     }
-    #kkk{
-        width: 0px;
-    }
-    #kkk #kmo{
-        margin-left: 50px;
-    }
-    #kkk #mko{
-        width: 300px;
-        margin-left: -10px;
-        margin-right: -10px;
-    }
-    #kkk #obo{
-        margin-left: -10px;
-    }
-    #vc,#yh,#obo,#gb,#gf{
+  
+    #vc,#yh,#gb,#gf{
         width: 385px;
     }
     #nm{
