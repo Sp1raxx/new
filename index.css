@@ -164,6 +164,7 @@ h3{
         margin-left: -197px;
         margin-top: 100px;
         width: 100%;
+        
     }
     #ok{
         margin-left: 100px;
@@ -175,6 +176,10 @@ h3{
     }
     #kkk #mko{
         margin-top: 4px;
+    }
+    #kkk #obo{
+        font-size: 10px;
+        width: 10px;
     }
     #vc,#yh,#gb,#gf{
         width: 385px;
