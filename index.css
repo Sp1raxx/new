@@ -161,12 +161,34 @@ h3{
 
 @media screen and (max-width: 768px){
     #back{
-        margin-left: -190px;
-        margin-top: 50px;
+        margin-left: -197px;
+        margin-top: 100px;
+        width: 100%;
     }
     #ok{
         margin-left: 100px;
         margin-top: 30px;
         
+    }
+    #kkk{
+        width: 0px;
+    }
+    #kkk #kmo{
+        margin-left: 50px;
+    }
+    #kkk #mko{
+        width: 300px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    #kkk #obo{
+        margin-left: -10px;
+    }
+    #vc,#yh,#obo,#gb,#gf{
+        width: 385px;
+    }
+    #nm{
+        margin-left: 220px;
+        margin-top: 2px;
     }
 }
