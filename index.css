@@ -1,5 +1,5 @@
 img{
-    width: 500px;
+    width: 520px;
     margin-top: -180px;
     margin-left: -10px;
     margin-bottom: -30px;
@@ -54,11 +54,16 @@ h2{
     margin-left: 250px;
     color: grey;
     text-decoration: none;
-    margin-top: 12px;
+    margin-top: 5px;
+}
+#fd{
+    margin-bottom: -10px;
+    margin-left: 200px;
 }
 #vc{
     margin-left: 200px;
-    margin-top: 5px;
+    margin-bottom: -10px;
+    margin-top: 10px;
     height: 40px;
     border-radius: 6px;
     border-width: 1px;
@@ -66,7 +71,7 @@ h2{
     border-color: rgb(218, 216, 216);
 }
 #gf{
-    margin-left: 200px;
+    margin-left: 203px;
     margin-top: 30px;
     height: 40px;
     border-radius: 6px;
@@ -200,9 +205,8 @@ h3{
 @media screen and (max-width: 768px){
     #back{
         margin-left: -197px;
-        margin-top: 110px;
-        width: 100%;
-        
+        margin-top: 120px;
+        width: 100%;   
     }
     .error{
         margin-left: -380px;
@@ -214,6 +218,11 @@ h3{
     }
     #ij{
         margin-bottom: -5px;
+        margin-left: 210px;
+    }
+    #fd{
+        margin-left: 210px;
+        margin-bottom: -5px;
     }
     #yh{
         margin-top: -60px;
@@ -224,10 +233,11 @@ h3{
         
     }
     #vc,#yh,#gb,#gf{
-        width: 385px;
+        width: 360px;
+        margin-left: 210px;
     }
     #nm{
-        margin-left: 220px;
+        margin-left: 190px;
         margin-top: 2px;
     }
     body{
@@ -238,7 +248,7 @@ h3{
         display: block;
         height: 1px;
         width: 160px;
-        margin-left: 15px;
+        margin-left: 10px;
         margin-right: 0px;
         position: absolute;
         top: 50%;
@@ -254,18 +264,17 @@ h3{
         top: 50%;
         right: 0;
         background: rgb(236, 234, 234);
-        margin-right: 10px;
+        margin-right: 5px;
     }
     #kk{
         position: relative;
-    
         max-width: 500px;
         margin-left: 00px auto;
         text-align: center;
         color: rgb(236, 234, 234);
     }
     #jhm {
-        margin-left: 30px;
+        margin-left: 45px;
     }
 
 
