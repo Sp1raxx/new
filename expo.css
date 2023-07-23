@@ -174,12 +174,16 @@ li{
     color: rgb(90, 88, 88);
     font-weight: bolder;
 }
+#bvb{
+    margin-bottom: -30px;
+}
 select{
     height: 30px;
     width: 100px;
     border-radius: 6px;
     border-width: 1px;
     border-color: rgb(175, 172, 172);
+    margin-left: 900px;
 }
 #ol{
     margin-left: 110px;
@@ -191,4 +195,152 @@ select{
 }
 #vb{
     display: none;
+}
+@media screen and (max-width: 768px){
+    #uh,#hk,#bm,#jh,#km{
+        display: none;
+    }
+    body{
+        width: 100%;
+    }
+    #bg{
+        margin-left: -175px;
+        padding: 50px;
+        margin-top: 25px;
+        border-top: 1px ridge rgb(194, 193, 193);
+        font-size: 20px;
+        font-weight: bold;
+        border-bottom: 1px ridge rgb(194, 193, 193);
+        padding-bottom: 20px;
+    }
+    .dropdown{
+        margin-left: 250px;
+        border: none;
+        margin-bottom: -30px;
+    }
+    #kh{
+        border: none;
+    }
+    #vd{
+        border: none;
+        box-shadow: none;
+        margin-left: 5px;
+        width: 100%;
+        margin-bottom: -10px;
+    }
+    #xc{
+        border-bottom: 1px ridge rgb(194, 193, 193);
+        margin-bottom: 300px;
+    }
+    #dv br{
+        display: none;
+    }
+    #fg,#rf{
+        width: 100%;
+    }
+    #lkj{
+        display: none;
+    }  
+    #bv{
+        border-top: 1px ridge rgb(194, 193, 193);
+        padding-top: 10px;
+        width: 100%;
+        margin-top: -500px;
+
+    }
+    #bv li{
+        width: 100%;
+        display: none;
+    }
+    #jhg{
+        margin-top: -100px;
+        margin-left: -30px;
+        border-bottom: 1px ridge rgb(194, 193, 193);
+        padding-bottom: 10px;
+        display: inline-flex;
+    }
+    #jhg i{
+        margin-left: 260px;
+        margin-top: 5px;
+    }
+    #ed{
+        margin-top: 20px;
+    }
+    #jgh{
+        margin-top: -100px;
+        margin-left: -463px;
+        border-bottom: 1px ridge rgb(194, 193, 193);
+        padding-bottom: 10px;
+        display: inline-flex;
+    }
+    #jgh i{
+        margin-left: 245px;
+        margin-top: 5px;
+    }
+    #de{
+        margin-top: 70px;
+    }
+    #hjg{
+        margin-top: -100px;
+        margin-left: -595px;
+        border-bottom: 1px ridge rgb(194, 193, 193);
+        padding-bottom: 10px;
+        display: inline-flex;
+    }
+    #hjg i{
+        margin-left: 250px;
+        margin-top: 5px;
+    }
+    #kl{
+        margin-top: 120px;
+    }
+    #hgj{
+        margin-top: -100px;
+        margin-left: -725px;
+        border-bottom: 1px ridge rgb(194, 193, 193);
+        padding-bottom: 10px;
+        display: inline-flex;
+    }
+    #hgj i{
+        margin-left: 278px;
+        margin-top: 5px;
+    }
+    #lk{
+        margin-top: 170px;
+    }
+    #vbb{
+        margin-left: -850px;
+        margin-top: 150px;
+        height: 10px;
+    }
+    #ffar{
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    #bvb{
+        margin-top: 500px;
+        margin-bottom: -300px;
+        margin-left: -90px;
+        width: 100%;
+
+    }
+    #ol{
+        margin-top: 30px;
+    }
+    #kk{
+        width: 100%;
+        margin-left: -10px;
+        margin-top: -390px;
+    }
+    #zx{
+        margin-right: 160px;
+    }
+    #tgh p{
+        margin-left: 100px;
+    }
+    #ol{
+        margin-top: 60px;
+        margin-left: 20px;
+        width: 300px;
+    }
 }
