@@ -203,6 +203,10 @@ select{
     body{
         width: 100%;
     }
+    .gtb{
+        overflow-x: hidden;
+    }
+    
     #bg{
         margin-left: -175px;
         padding: 50px;
