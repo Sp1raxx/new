@@ -44,8 +44,8 @@
             <ul id="vd">
                 <p id="dv">Email a valid email or username to receive instructions on how to reset your <br>password.</p>
                 <h1 id="gh">Email or username</h1>
-                <input type="text" id="fg">
-                <button id="rf">Reset Password</button>
+                <input type="text" id="fg" onclick="return(validate())">
+                <button id="rf" onclick="return(validate())" type="submit">Reset Password</button>
             </ul>
         </div>
         <p id="lkj" style="margin-left: -10px; margin-top: 200px; color: rgb(219,219,219);">_____________________________________________________________________________________________________________________________________________________________________________________________________________</p>
@@ -107,4 +107,31 @@
         </div>
     </div>
 </body>
+
+        <script>
+            function validate() {
+                let useremail = document.getElementById("fg").value;
+
+                const emailformat= /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+                
+
+                if(!useremail){
+                    alert('please provide a valid email or usename');
+                    document.getElementById("fg").focus;
+                    return false;
+                } 
+                if (!useremail.match(emailformat)){
+                    alert('your email or username is not in the correct format');
+                    document.getElementById("fg").focus;
+                    return false;
+                }
+                
+
+                else{
+                    return true;
+                }
+            }
+        </script>
+
+
 </html>

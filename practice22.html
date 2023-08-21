@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="registrationform">
+        <div>
+            <label id="username">Username</label>
+            <input type="username">
+            <span id="usererror"></span>
+        </div><br>
+        <div>
+            <label id="Email">Email</label>
+            <input type="Email">
+            <span id="emailerror"></span>
+        </div><br>
+        <div>
+            <label id="password">Password</label>
+            <input type="password">
+            <span id="passerror"></span>
+        </div><br>
+        <div>
+            <label id="confirmpass">Confirm Password</label>
+            <input type="confirmpass">
+            <span id="confirmerror"></span>
+        </div><br>
+        <input type="submit">
+    </form>
+
+
+
+
+    <script>
+        let form = document.getElementById('registrationform');
+        let myusername = document.getElementById('username');
+        let myemail = document.getElementById('Email');
+        let mypassword = document.getElementById('password');
+        let confirmpass = document.getElementById('confirmpass');
+        let usererror = document.getElementById('usererror');
+        let emailerror = document.getElementById('emailerror');
+        let passerror = document.getElementById('passerror');
+        let  confirmerror = document.getElementById('confirmerror');
+
+
+        const emailformat = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        const passformat = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+        form.addEventListener("submit" , function(meme){
+            meme.peventDefault();
+            let tobi = true;
+        
+
+            if(!myusername.value){
+                usererror.textcontent = "input username";
+                usererror.style.color = "red";
+                tobi = false;
+            } else {
+                usererror.textcontent = " username correct";
+                usererror.style.color = "blue";
+            }
+            if(!myemail.value){
+                emailerror.textcontent = "input email";
+                emailerror.stle.color = " red";
+                tobi = false;
+            } else if (!myemail.value.match(emailformat)){
+                emailerror.textContent = "your email is not in the correct format"
+                emailerror.style.color = "red";
+                tobi = false;
+            } else {
+                emailerror.textContent = " correct";
+                emailerror.stle.color = "blue";
+            }
+            if(!mypassword.value){
+                passerror.textcontent = "input passsword";
+                passerror.stle.color = " red";
+                tobi = false;
+            } if (!mypassword.value.match(passformat)){
+                passerror.textContent = "your password must contain an upper case, lower case and must be 5 characters long"
+                passerror.style.color = "red";
+                tobi = false;
+            } else {
+                passerror.textContent = " correct";
+                passerror.stle.color = "blue";
+            }
+            if(mypassword.value!==  confirmpass.value){
+                passerror.textcontent = "input passsword";
+                passerror.stle.color = " red";
+                tobi = false;
+            }else {
+                confirmerror.textContent = " correct";
+                confirmerror.stle.color = "blue";
+            }
+
+
+
+            if (tobi){
+                form.submit();
+            }
+
+
+        });
+
+
+
+
+    </script>
+</body>
+</html>

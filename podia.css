@@ -187,19 +187,23 @@
     margin-top: 200px;
     margin-left: 150px;
     font-size: 51px;
+    font-weight: bolder;
 
 }
 #wd{
-    margin-left: 450px;
+    margin-left: 250px;
     font-size: 51px;
-    margin-top: -30px;
+    margin-top: -40px;
 }
-#bg{
+#super{
     font-size: 21px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 110px;
-    margin-top: -20px;
+    margin-top: 0px;
     color: rgb(110, 108, 108);
+}
+#super li{
+    display: inline;
 }
 #gb{
     font-size: 21px;
@@ -226,6 +230,8 @@
     height: 60px;
     font-size: 20px;
     font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 450px;
 }
 #hg:hover{
     background: rgb(39, 18, 88);
@@ -250,13 +256,19 @@
     font-size: 21px;
     margin-left: -90px;
     color: rgb(110, 108, 108);
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 #jk{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 21px;
-    margin-left: 55px;
+    margin-left: 0px;
     margin-top: -15px;
     color: rgb(110, 108, 108);
+    margin-right: 50px;
+}
+#mvbm{
+    margin-left: 250px;
 }
 #qqq{
     display: inline-flex;
@@ -284,6 +296,13 @@
 #cq{
     margin-top: -10px;
     color: rgb(122, 118, 118);
+}
+#cqq{
+    margin-top: -10px;
+    color: rgb(122, 118, 118);
+    margin-bottom: -23px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #nq,#mq,#vq{
     margin-top: 30px;
@@ -722,6 +741,13 @@
     margin-top: -40px;
     margin-bottom: 5px;
 }
+#panan{
+    display: inline;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(110, 108, 108);
+    margin-left: 400px;
+}
 #ned a{
     margin-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -778,6 +804,196 @@
 #eddr a{
     margin-left: 20px;
     color: rgb(77, 76, 76);
+}
+#lkjh{
+    display: none;
+}
+#df p{
+    margin-left: 780px;
+    margin-top: -60px;
+}
+#omoope{
+    margin-left: 300px;
+}
+#define{
+    display: inline;
+}
+#difine{
+    display: inline;
+}
+#hgdb{
+    display: inline;
+}
+#adeolu{
+    display: inline;
+}
+#omoope br{
+    display: none;
+}
+#bb #hag{
+    font-size: 45px;
+    display: inline;
+    font-weight: bolder;
+}
+#hag{
+    margin-left: -80px;
+}
+#hag li{
+    display: inline;
+}
+#kj li{
+    display: inline;
+}
+
+
+@media screen and (max-width: 768px){
+    #e,#r,#t,#y,#u,#i,#p{
+        display: none;
+    }
+    #w{
+        margin-right: -250px;
+        font-size: 44px;
+        margin-top: 15px;
+        margin-left: 20px;
+        width: 100%;
+    }
+    #q{
+        position: fixed;
+        margin-left: -10px;
+        margin-top: -200px;
+        background: white;
+        margin-bottom: -50px;
+        width: 105%;
+        
+    }
+    #lkjh{
+        display: inline-flex;
+        margin-top: 30px;
+        color: black;
+        background: white;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 50px;
+        border-width: 1px;
+        border-style: ridge;
+        border-style: none;
+        align-items: center;
+        padding: 10px;
+        padding-left: -50px;
+        padding-bottom: -20px;
+        height: 40px;
+        width: 70px;
+        text-align: center;
+        font-display: 10px;
+    }
+    #lkjh:hover{
+        background: rgb(243, 236, 236);
+    }
+    #o{
+        margin-left: -10px;
+        margin-right: 10px;
+    }
+   #fd ul,#wd{
+       font-size: 35px;
+       width: 100%;
+       margin-left: -20px;
+   }
+   #spiderman{
+        width: 100%;
+   }
+   #df{
+    width: 100%;
+    font-size: 45px;
+   }
+   #define{
+    margin-left: 50px;
+   }
+   #fd{
+    width: 100%;
+    margin-left: -130px;
+   }
+   #omoope{
+    margin-top: -50px;
+    margin-left: 220px;
+   }
+   #hgdb{
+    margin-left: -90px;
+   }
+   #difine{
+    margin-left: -10px;
+   }
+   #omoope br{
+    display: block;
+   }
+   #super{
+    margin-left: 140px;
+    width: 100%;
+   }
+   #hg{
+    margin-left: 100px;
+    width: 250px;
+   }
+   #gb{
+    margin-left: 0px;
+   }
+   #jg img{
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+   }
+   #bb{
+    width: 100%;
+    height: 100%;
+    margin-left: 15px;
+   }
+   #hag{
+    text-align: center;
+    margin-left: auto;
+
+   }
+   #bn{
+    margin-left: -5px;
+   }
+   #kj{
+    width: 100%;
+    margin-left: -10px;
+   }
+   #mvbm{
+    margin-left: -55px;
+   }
+   #qqq{
+    display: block;
+    width: 100%;
+   }
+   #wq{
+    margin-left: auto;
+   }
+   #bq{
+    margin-top: -63px;
+    margin-left: 140px;
+   }
+   #cqq{
+    margin-top: -41px;
+    margin-left: 70px;
+    margin-bottom: 0px;
+   }
+    #panan{
+        margin-left: 0px;
+    }
+    #wq i{
+        margin-left: 160px;
+    }
+    #mkn{
+        width: 80%;
+        text-align: center;
+        margin-left: 20px;
+    }
+    #ds{
+        width: 100%;
+        height: 100%;
+        margin-top: 100px;
+        margin-left: auto;
+    }
 }
 
 
