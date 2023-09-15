@@ -746,7 +746,7 @@
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(110, 108, 108);
-    margin-left: 400px;
+    margin-left: 125px;
 }
 #ned a{
     margin-left: 10px;
@@ -844,6 +844,14 @@
 #kj li{
     display: inline;
 }
+#fgg{
+    margin-left: 430px;
+    margin-top: -65px;
+}
+#spirexx{
+    margin-left: 160px;
+    margin-top: -55px;
+}
 
 
 @media screen and (max-width: 768px){
@@ -851,11 +859,10 @@
         display: none;
     }
     #w{
-        margin-right: -250px;
         font-size: 44px;
         margin-top: 15px;
         margin-left: 20px;
-        width: 100%;
+        margin-right: 55px;
     }
     #q{
         position: fixed;
@@ -863,7 +870,7 @@
         margin-top: -200px;
         background: white;
         margin-bottom: -50px;
-        width: 105%;
+        width: 100%;
         
     }
     #lkjh{
@@ -890,8 +897,8 @@
         background: rgb(243, 236, 236);
     }
     #o{
-        margin-left: -10px;
-        margin-right: 10px;
+        margin-left: 10px;
+        margin-right:-10px;
     }
    #fd ul,#wd{
        font-size: 35px;
@@ -903,24 +910,27 @@
    }
    #df{
     width: 100%;
-    font-size: 45px;
+    font-size: 37px;
    }
    #define{
-    margin-left: 50px;
+    margin-left: 30px;
    }
    #fd{
     width: 100%;
-    margin-left: -130px;
+    margin-left: -135px;
    }
    #omoope{
-    margin-top: -50px;
+    margin-top: -44px;
     margin-left: 220px;
    }
    #hgdb{
-    margin-left: -90px;
+    margin-left: -130px;
    }
    #difine{
     margin-left: -10px;
+   }
+   #adeolu{
+    margin-left: -40px;
    }
    #omoope br{
     display: block;
@@ -930,7 +940,7 @@
     width: 100%;
    }
    #hg{
-    margin-left: 100px;
+    margin-left: 50px;
     width: 250px;
    }
    #gb{
@@ -943,8 +953,7 @@
    }
    #bb{
     width: 100%;
-    height: 100%;
-    margin-left: 15px;
+    margin-left: 10px;
    }
    #hag{
     text-align: center;
@@ -956,7 +965,7 @@
    }
    #kj{
     width: 100%;
-    margin-left: -10px;
+    margin-left: 5px;
    }
    #mvbm{
     margin-left: -55px;
@@ -970,18 +979,23 @@
    }
    #bq{
     margin-top: -63px;
-    margin-left: 140px;
+    margin-left: 205px;
+   }
+   #spirexx{
+    margin-left: 120px;
+    font-size: 30px;
+    margin-top: -25px;
    }
    #cqq{
     margin-top: -41px;
-    margin-left: 70px;
+    margin-left: 200px;
     margin-bottom: 0px;
    }
     #panan{
         margin-left: 0px;
     }
     #wq i{
-        margin-left: 160px;
+        margin-left: 350px;
     }
     #mkn{
         width: 80%;
@@ -993,6 +1007,67 @@
         height: 100%;
         margin-top: 100px;
         margin-left: auto;
+    }
+    #www #rq{
+        width: 70%;
+    }
+    #www #bq{
+        margin-left: 140px
+    }
+    #bgd,#ghf{
+        display: none;
+    }
+    #www{
+        display: block;
+    }
+    #mbvn{
+        width: 100%;
+        margin-left: -55px;
+    }
+    #mmm{
+        display: block;
+    }
+    #mmm #rq{
+        width: 100%;
+    }
+    #mmm #bq{
+        width: 100%;
+        margin-left: 115px;
+    }
+    #ghg{
+        margin-left: -110px;
+        width: 100%;
+    }
+    #sad{
+        width: 100%;
+        margin-left: -45px;
+    }
+    #ns{
+        display: block;
+        margin-left: -30px;
+    }
+    #ms{
+        width: 100%;
+        margin-left: auto;
+        height: 100%;
+    }
+    #xl{
+        margin-top: 100px;
+        width: 100%;
+        margin-left: 10px;
+    }
+    #xh{
+        width: 100%;
+        margin-left: 210px;
+    }
+    #cs{
+        margin-left: 35px;
+    }
+    #ncn{
+        margin-left: 10px;
+    }
+    #nc{
+        width: 95%;
     }
 }
 
