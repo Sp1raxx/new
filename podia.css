@@ -1058,7 +1058,22 @@
     }
     #xh{
         width: 100%;
-        margin-left: 210px;
+        margin-left: 220px;
+        margin-top: -65px;
+        
+    }
+    #fgg{
+        margin-left: auto;
+        margin-top: -30px;
+    }
+    #xj,#xg{
+        margin: auto;
+        margin-left: -10px;
+    }
+    #xf{
+        margin: auto;
+        margin-left: 240px;
+        margin-top: -23px;
     }
     #cs{
         margin-left: 35px;
@@ -1068,6 +1083,27 @@
     }
     #nc{
         width: 95%;
+    }
+    #tobi{
+        display: block;
+        margin-left: -45px;
+    }
+    #obi{
+        margin-top: 50px;
+    }
+    #ore{
+        width: 100%;
+        margin-left: auto;
+    }
+    #demi a{
+        display: none;
+    }
+    #demi{
+        margin-left: auto;
+        
+    }
+    #spiderman{
+        overflow-x: hidden;
     }
 }
 
