@@ -864,14 +864,18 @@
         margin-left: 20px;
         margin-right: 55px;
     }
+    body{
+        background-color: white;
+    }
+    #spiderman{
+        overflow-x: hidden;        
+    }
     #q{
         position: fixed;
         margin-left: -10px;
-        margin-top: -200px;
+        margin-top: -10px;
         background: white;
         margin-bottom: -50px;
-        width: 100%;
-        
     }
     #lkjh{
         display: inline-flex;
@@ -889,6 +893,7 @@
         padding-left: -50px;
         padding-bottom: -20px;
         height: 40px;
+        margin-right: 18px;
         width: 70px;
         text-align: center;
         font-display: 10px;
@@ -1099,11 +1104,19 @@
         display: none;
     }
     #demi{
-        margin-left: auto;
-        
+        display: block;
     }
-    #spiderman{
-        overflow-x: hidden;
+    #qwes{
+        margin-left: -70px;
+        width: 200px;
+        margin-top: -50px;
+    }
+    #dssa{
+        margin-top: 30px;
+        margin-left: -70px;
+    }
+    #dssa a{
+        display: inline;
     }
 }
 
