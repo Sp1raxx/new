@@ -12,12 +12,19 @@
     background: white;
     margin-left: -10px;
     margin-top: -80px;
+    padding-right: 9.8px;
 }
 #w p{
     margin-left: 40px;
+    margin-right: px;
 }
-#w a{
-    margin-left: 390px;
+#hnl{
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: -20px;
+}
+#mkl{
+    margin-left: 549px;
     margin-top: 15px;
     text-decoration: none;
     color: black;
@@ -34,7 +41,7 @@
     border: none;
     background: rgb(155, 48, 197);
     color: white;
-    margin-right: 29px;
+    margin-right: 17px;
 }
 #e:hover{
     background: rgb(173, 27, 161);

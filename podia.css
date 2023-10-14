@@ -873,7 +873,7 @@
     #q{
         position: fixed;
         margin-left: -10px;
-        margin-top: -10px;
+        margin-top: -210px;
         background: white;
         margin-bottom: -50px;
     }
@@ -983,13 +983,13 @@
     margin-left: auto;
    }
    #bq{
-    margin-top: -63px;
-    margin-left: 205px;
+    margin-top: -33px;
+    margin-left: 0px;
    }
    #spirexx{
-    margin-left: 120px;
+    margin-left: 160px;
     font-size: 30px;
-    margin-top: -25px;
+    margin-top: -60px;
    }
    #cqq{
     margin-top: -41px;
@@ -1017,7 +1017,8 @@
         width: 70%;
     }
     #www #bq{
-        margin-left: 140px
+        margin-left: 140px;
+        margin-top: -64px;
     }
     #bgd,#ghf{
         display: none;
@@ -1038,6 +1039,7 @@
     #mmm #bq{
         width: 100%;
         margin-left: 115px;
+        margin-top: -64px;
     }
     #ghg{
         margin-left: -110px;
